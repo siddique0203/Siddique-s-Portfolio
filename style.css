@@ -44,6 +44,9 @@ footer{
     text-align: right;
     border-radius: 2px;
     margin: -8px;
+    z-index: 1000;
+    position: relative;
+    bottom: 1000px;
 
 }
 
@@ -73,7 +76,8 @@ footer{
 
 #content{
     position: relative;
-    min-height: 100vh;
+    min-height: 120vh;
+  
 }
 
 #sidimg {
@@ -308,4 +312,100 @@ li {
 
 
  
+
+.contact-section {
+    background-color: #0A192F; /* Dark Blue */
+    padding: 50px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #64ffda;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contact-card {
+    background: #112240;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.contact-card .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-card h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    color: #ccc;
+    font-size: 1em;
+}
+
+.contact-card a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.appointment-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.appointment-btn {
+    background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+    color: white;
+        text-decoration: none;
+    border: 2px solid #2F80ED;
+    padding: 15px 45px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 100px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(47, 128, 237, 0.4);
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    
+}
+
+.appointment-btn:hover {
+    background: white;
+    color: #2F80ED;
+    border-color: #56CCF2;
+    box-shadow: 0 12px 30px rgba(86, 204, 242, 0.6);
+    transform: translateY(-4px);
+}
 

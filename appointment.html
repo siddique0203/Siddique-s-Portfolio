@@ -2,37 +2,64 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio of Abu Bakar Siddique</title>
+    <link rel="stylesheet" href="styleCv.css">
+    <title>Appointment</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="abs.png" alt="abs logo"></a>
-        <div id="headOption">
-                <p class="hp"><a href="index.html" target="_blank">Home</a></p>
-                <p class="hp"><a href ="about.html"  > About</a></p>
-                <p class="hp"><a href ="education.html" > Education</a></p>
-                <p class="hp"><a href ="skills.html"  > Skills</a></p>
-                <p class="hp"><a href ="project.html"  > Projects</a></p>
-                <p class="hp"><a href ="experiance.html" > Experiance</a></p>
-                <p class="hp" style="margin-right: 35px;"><a href ="contact.html"  >Contact</a></p>
-        </div>
-    </header>
-    <br>
-    <div id="content">
-        
-        
-
-
-
-
-
-
+    <div id="form">
+        <h1 style="margin-bottom: 15px;">Fillup The Form For Appointment<hr></h1> 
+        <br>
+        <form id="appointment">
+            <div>
+                <label>Full Name: </label>
+                <input type="text" required name="fullName" style="    text-transform: uppercase;">
+            </div>
+            <div>
+                <label>Email: </label>
+                <input type="email" required name="email">
+            </div>
+            <div> 
+                <label>Phone: </label>
+                <input type="tel" required name="phone">
+            </div>
+            <div>
+                <label name="gender">Gender: </label>
+                <input type="radio"  name="gender" value="male">Male
+                <input type="radio"  name="gender" value="female">Female
+            </div>
+            <div>
+                <label name="comm">Preferred Communication:</label>
+                <input type="checkbox" name="comm" value="call">Call
+                <input type="checkbox" name="comm" value="sms">SMS
+                <input type="checkbox" name="comm" value="email">Email
+            </div>
+            <div>
+                <label name="day">Preferred Date:</label>
+                <input type="date" required style="width: 500px; height: 11px;">
+            </div>
+            <div>
+                <label name="drop">Reason For Appointment:</label>
+                <select name="drop" id="drop" required style="width:525px; height:35px;">
+                    <option value="">--Select Reason--</option>
+                    <option value="consult">Project Consultation</option>
+                    <option value="it">IT Support</option>
+                    <option value="software">Software Support</option>
+                </select>
+               
+            </div>
+            <div name="button">
+                <button type="submit">SUBMIT</button>
+                <button type="reset">RESET</button>
+            </div>
+            
+        </form>
     </div>
 
-    <footer>
-        <p>&copy; 2025 Abu Bakar Siddique. All Rights Reserved.</p>
-    </footer>
-    
+
+
+
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+
 </body>
 </html>
