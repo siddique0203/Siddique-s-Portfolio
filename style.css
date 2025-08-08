@@ -45,8 +45,7 @@ footer{
     border-radius: 2px;
     margin: -8px;
     z-index: 1000;
-    position: relative;
-    bottom: 1000px;
+    
 
 }
 
@@ -287,7 +286,7 @@ li {
   color: #0A192F;
   background-color: #ffffff;
   border: 2px solid #0A192F;
-  border-radius: 12px;          /* Rounded but still quad-shaped */
+  border-radius: 12px;           /
   box-shadow: 2px 4px 8px rgba(10, 25, 47, 0.15);
   cursor: pointer;
   transition: 
