@@ -380,12 +380,14 @@ li {
 .appointment-container {
     margin-top: 50px;
     text-align: center;
+    text-decoration: none;
 }
 
 .appointment-btn {
     background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
     color: white;
-        text-decoration: none;
+    display: inline-block;
+    text-decoration: none;   
     border: 2px solid #2F80ED;
     padding: 15px 45px;
     font-size: 40px;
